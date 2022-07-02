@@ -304,14 +304,10 @@
     overflow: hidden;
     padding-top: 56px;
 }
-.swiper-wraper{
+.teachers-section .swiper{
     margin-top: 50px;
-    position: relative;
 }
-.swiper-list{
-    display: flex;
-}
-.swiper-item{
+.swiper-slide{
     flex: none;
     width: 240px;
     text-align: center;
@@ -342,7 +338,7 @@
     overflow: hidden;
     padding-left: 6px;
 }
-.swiper-prev,.swiper-next{
+.swiper-button-prev,.swiper-button-next{
     width: 25px;
     height: 40px;
     background: rgba(226, 230, 234, 0.8);
@@ -352,13 +348,13 @@
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
 }
-.swiper-prev:hover,.swiper-next:hover{
+.swiper-button-prev:hover,.swiper-button-next:hover{
     background: rgba(177, 189, 198, 0.8);
 }
-.swiper-prev{
+.swiper-button-prev{
     left: 0;
 }
-.swiper-prev::after{
+.swiper-button-prev::after{
     content: '';
     width: 12px;
     height: 12px;
@@ -370,10 +366,10 @@
     top: 32.5%;
     left: 40%;
 }
-.swiper-next{
+.swiper-button-next{
     right: 0;
 }
-.swiper-next::after{
+.swiper-button-next::after{
     content: '';
     width: 12px;
     height: 12px;
@@ -578,7 +574,7 @@
     margin-left: 500px;
     transform: translateY(-50%);
     -wibkit-transform: translateY(-50%);
-    z-index: 2000;
+    z-index: 4000;
 }
 .gotop-item{
     width: 40px;
